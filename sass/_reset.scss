@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+    overflow-x: hidden;
+}
+
+body,
+input,
+textarea {
+    font-size: $fontSize;
+    font-family: $fontFamily;
+    color: $fontColor;
+    font-weight: $fontWeight;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}

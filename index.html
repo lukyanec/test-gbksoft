@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link rel="stylesheet" href="libs/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="libs/daterangepicker.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="app">
+        <aside class="nav-panel">
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navigation">
+                <ul class="navigation-list">
+                    <li><a title="Aircraft" href="#">Aircraft</a></li>
+                    <li><a title="Recent Sales" href="#">Recent Sales</a></li>
+                    <li><a title="Market Updates" href="#">Market Updates</a></li>
+                    <li><a title="FMV" href="#">FMV</a>
+                        <ul class="navigation-sublist">
+                            <li><a href="#">Manage Prices</a></li>
+                            <li><a href="#">Compare Costs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logout"><a title="Logout" href="#">Logout</a></div>
+        </aside>
+        <section class="info-panel">
+            <div class="nav-panel-toggler"><i class="fas fa-angle-left"></i></div>
+            <div class="info info-aside">
+                <div class="info__head">
+                    <div class="info__title">MfgYear Make Model
+                        <br/> Serial Number</div>
+                    <div class="states">
+                        <span class="state state-confirmed">Confirmed</span>
+                        <span class="state state-ghost">Ghost</span>
+                    </div>
+                    <div class="info__published">Published to <a href="#">soljets.com</a></div>
+                </div>
+                <div class="info__data">
+                    <div class="data-field">
+                        <span>Fair Market Value:</span>
+                        <span class="data-price">$955,500 </span>
+                    </div>
+                    <div class="data-field">
+                        <span>Status:</span>
+                        <span class="data-sale">For Sale</span>
+                    </div>
+                    <div class="data-field">
+                        <span>Ask Price:</span>
+                        <span class="data-price">$955,500</span>
+                        <span class="data-num num-up"><i class="fas fa-long-arrow-alt-up"></i> 11</span>
+                    </div>
+                    <div class="data-field">
+                        <span>Take Price:</span>
+                        <span class="data-price">$955,500</span>
+                        <span class="data-num num-down"><i class="fas fa-long-arrow-alt-down"></i> 11</span>
+                    </div>
+                    <div class="data-field">
+                        <span>Brokerage:</span>
+                        <span>AvPro</span>
+                    </div>
+                    <div class="data-field">
+                        <span>Damage:</span>
+                        <span class="data-damage">Low<i class="fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="data-field">
+                        <span>Pedigree:</span>
+                        <span>Medium</span>
+                    </div>
+                    <div class="data-field">
+                        <span>Next Inspection:</span>
+                        <div class="data-date">
+                            <span class="date-format">mm/dd/yy</span>
+                            <span>Inspection Type</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info__notes">
+                    <span class="note-text">Aircraft Notes:</span>
+                    <form class="post-form">
+                        <input type="text" class="post-form__input" placeholder="Please enter to post note...">
+                        <input type="submit" class="post-form__btn">
+                    </form>
+                    <div class="post-block">
+                        <div class="post">
+                            <div class="post__info">mm/dd/yy by Cris S.</div>
+                            <div class="post__text">Broker willing to take in the low 1's</div>
+                        </div>
+                        <div class="post">
+                            <div class="post__info">mm/dd/yy by Cris S.</div>
+                            <div class="post__text">Broker willing to take in the low 1's</div>
+                        </div>
+                        <div class="post">
+                            <div class="post__info">mm/dd/yy by Cris S.</div>
+                            <div class="post__text">Broker willing to take in the low 1's</div>
+                        </div>
+                        <div class="post">
+                            <div class="post__info">mm/dd/yy by Cris S.</div>
+                            <div class="post__text">Broker willing to take in the low 1's</div>
+                        </div>
+                        <div class="post">
+                            <div class="post__info">mm/dd/yy by Cris S.</div>
+                            <div class="post__text">Broker willing to take in the low 1's</div>
+                        </div>
+                        <div class="post">
+                            <div class="post__info">mm/dd/yy by Cris S.</div>
+                            <div class="post__text">Broker willing to take in the low 1's</div>
+                        </div>
+                        <div class="post">
+                            <div class="post__info">mm/dd/yy by Cris S.</div>
+                            <div class="post__text">Broker willing to take in the low 1's</div>
+                        </div>
+                        <div class="post">
+                            <div class="post__info">mm/dd/yy by Cris S.</div>
+                            <div class="post__text">Broker willing to take in the low 1's</div>
+                        </div>
+                        <div class="post">
+                            <div class="post__info">mm/dd/yy by Cris S.</div>
+                            <div class="post__text">Broker willing to take in the low 1's</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info info-center">
+                <div class="tabs">
+                    <ul class="tabs__list">
+                        <li><span>Overview</span></li>
+                        <li><span>Maintenance</span></li>
+                        <li><span>Transactions</span></li>
+                        <li><span>Utilization</span></li>
+                        <li><span class="tab-active">History</span></li>
+                    </ul>
+                </div>
+                <form class="data-form">
+                    <fieldset>
+                        <span class="field-name">Period</span>
+                        <i class="caret fas fa-caret-down"></i>
+                        <div id="period" class="data-form__field">
+                        	<span>Select</span>
+                        	<ul class="period-list">
+                        		<li>3 month</li>
+                        		<li>6 month</li>
+                        		<li>1 year</li>
+                        		<li class="datepicker">Custom</li>
+                            </ul>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <span class="field-name">Field Name</span>
+                        <input type="text" placeholder="Start typing..." class="data-form__field">
+                    </fieldset>
+                    <fieldset>
+                        <input class="data-form__btn" type="submit" value="Apply">
+                    </fieldset>
+                </form>
+                <div class="table-wrapper">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Updated By</th>
+                                <th>Field Name</th>
+                                <th>Previous Value</th>
+                                <th>New Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>mm/dd/yy</td>
+                                <td>Name</td>
+                                <td>Field Name</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>mm/dd/yy</td>
+                                <td>Name</td>
+                                <td>Field Name</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>mm/dd/yy</td>
+                                <td>Name</td>
+                                <td>Field Name</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="libs/moment.min.js"></script>
+    <script src="libs/daterangepicker.js"></script>
+    <script src="libs/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
